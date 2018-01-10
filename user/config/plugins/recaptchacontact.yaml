@@ -1,0 +1,7 @@
+enabled: true
+default_lang: en
+disable_css: false
+inject_template: true
+grecaptcha_sitekey: 6LeoeiEUAAAAADIvcelyOStR7hJAXFbYlzxlssJD
+grecaptcha_secret: 6LeoeiEUAAAAABLHxdEgS8pt8NwDZ4VEywMkzvne
+grecaptcha_callback: false

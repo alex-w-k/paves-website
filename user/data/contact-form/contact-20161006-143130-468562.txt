@@ -1,0 +1,6 @@
+
+name: Alex
+email: alex549us3@gmail.com
+phone: 7192137026
+message: Test of the contact form and the email forward at the same fucking time‽‽‽‽‽!!!!
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    {% include 'partials/metadata.html.twig' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://vendor/bootstrap/css/bootstrap.min.css', 103) %}
+        {% do assets.addCss('theme://css/gravstraptheme.css',-100) %}
+        {% do assets.addCss('theme://css/slideme.css',100) %}
+        {% do assets.addCss('theme://css/font-awesome.min.css',100) %}
+        {% do assets.addCss('theme://css/custom.css',-100) %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block javascripts %}
+        {% do assets.add('jquery',101) %}
+        {% do assets.addJs('theme://vendor/bootstrap/js/bootstrap.min.js', 100) %}
+        {% do assets.addJs('theme://js/jquery.slideme2.js') %}
+    {% endblock %}
+    {{ assets.js() }}
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            appId      : '474755489579600',
+            xfbml      : true,
+            version    : 'v2.8'
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+{% endblock head%}
+</head>
+<body class="{{ page.header.body_classes }}">
+    {% block header %}
+    <header id="header" class="header">
+        {{ navbar1 }}
+    </header>
+    {% endblock %}
+
+    {% block body %}
+    <section id="body" class="{{ class }}">
+        {% block content %}
+        {% endblock %}
+    </section>
+    {% endblock %}
+
+    {% block footer %}
+    {{ footer }}
+    </footer>
+    {% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+email: alex.koch@pavesnonprofit.com
+fullname: 'Alex Koch'
+title: Administrator
+state: enabled
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$9focVpdKH9qN6xOoJB9/Keddj04x7E31GWB8BcYvsngwH0Af08zA.
+language: en

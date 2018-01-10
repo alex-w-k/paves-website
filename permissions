@@ -1,0 +1,6 @@
+#!/bin/sh
+sudo chown -R grav:www-data .
+sudo find . -type f | xargs chmod 664
+sudo find ./bin -type f | xargs chmod 775
+sudo find . -type d | xargs chmod 775
+sudo find . -type d | xargs chmod +s

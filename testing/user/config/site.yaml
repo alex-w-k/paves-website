@@ -1,0 +1,17 @@
+title: PAVES
+author:
+  name: 'Alex Koch'
+  email: alex.koch@pavesnonprofit.com
+taxonomies:
+  - category
+  - tag
+  - author
+metadata:
+  description: 'PAVES Nonprofit'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

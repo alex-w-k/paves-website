@@ -1,0 +1,11 @@
+email: codi.coday@pavesnonprofit.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Codi Coday'
+title: President
+state: enabled
+hashed_password: $2y$10$pSyPNHDs89T3REvyZhcq.OOX11LHlO2GzcioBWxKBrmMv9WA1Gfg.
