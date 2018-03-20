@@ -61,9 +61,9 @@ We need help to get the word out there so tell your bisexual, questioning, and a
 ---
 [g-what-we-do name="Pride Fest" attributes="class:what-we-do module" column_attributes="class:col-md-12"]
 [g-what-we-do-item attributes="class:col-md-12"]
-## Denver Pridefest
+## Denver Pridefest 2018
 [g-progressbar label="" type="warning" value="55" min="0" max="100" render="true"][/g-progressbar]
-$0.00 raised out of our $1500.00 goal.
+$800.00 raised out of our $1500.00 goal.
 [/g-what-we-do-item]
 [/g-what-we-do]
 
