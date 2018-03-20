@@ -80,26 +80,16 @@ Alex was born in Colorado Springs and has lived in various parts of Colorado mos
 </div>
 [/g-team-item]
 
-[g-team-item image="timmy.jpg" attributes="class:col-md-6"]
-## Timmy EverLes
-### Director of Community Outreach
+[g-team-item attributes="class:col-md-6"]
+## Kayla Kent
+### Legal
 #### Pronouns: She, Her, Hers
-Timmy was raised in rural Missouri by her two moms and lived with her dad in Kansas City on weekends.  Due to the culturally insensitive climate at the K-12 country school that she attended, she was often bullied by her peers for having gay parents.  After working through this trauma and embracing her own bisexuality in adulthood, she has made it her mission in life to create as many safe spaces and support for others as possible, especially individuals targeted for being different.  She moved to Denver the summer of 2015 to escape the Midwest mindset and to find a master’s program in counseling.  Her days mostly consist of working way too many hours in the human services field and studying to become a Licensed Professional Counselor (LPC) at Regis University.  In her off-time she can be found co-organizing the Denver Metro Bisexuals’ Social Club on meetup.com, volunteering for local LGBT and human service groups, researching art therapy techniques, dreaming up anti-bullying campaigns, touring art museums and galleries, hiking, climbing rocks, baking gluten-free desserts, crocheting funtabulous hats, and snapchatting photos of her herd of cats.  Please, click the links below to contact her directly.
-<div class="item-social">
-[g-link url="mailto:timmy.everyles@pavesnonprofit.com" icon="envelope" icon_type="fontawesome" stacked="true"][/g-link]
-</div>
+
+Kayla is a Denver native and a recent graduate of the University of Denver law school, earning her legal license on Halloween of 2016. In school, Kayla represented Coloradan non-profits and public benefit corporations in a legal clinic and served on the Board of Directors for the OUTLaws, an organization for LGBTQ+ law students. While she had been an LGBTQ+ rights activist since middle school, OUTLaws was her first role as an ‘out’ bisexual. Kayla joined PAVES because she regrets that, even as an activist immersed in LGBTQ+ culture, bisexuality was so overlooked that it took her a quarter-century to come out, even to herself. She is passionate about programming that will allow and embrace young polysexuals and encourage their self-discovery. She also loves thinking and writing about live music, polyamory, video games, mental health, and dinosaurs (preferably at the same time??). Feel free to connect with her below!
+
+[g-link url="mailto:kayla.kent@pavesnonprofit.com" icon="envelope" icon_type="fontawesome" stacked=true]
 [/g-team-item]
 
-[g-team-item image="sean.jpg" attributes="class:col-md-6"]
-## Sean Friend
-### Secretary
-#### Pronouns: He, Him, His
-In addition to his role as Board member, Sean Friend serves as the Secretary for PAVES.  He is 32 years old, and has been in his bisexual phase since 1984.  He’s moved around a lot since then, but spent most of his time in Colorado and most recently in the Denver Metro area.  He finished his MA in Postcolonial and Religious Studies at the Iliff School of Theology in Denver in 2013 and seems to spends most of his time arguing with people on the internet.  His other activities include spending time with his partner and two kids, listening to Propagandhi, and working to pay for his vegan cookie dough habit.  He got involved in PAVES because he’s passionate about creating safe spaces for transgender and bisexual youth.  He encourages you to reach out by the links down below so he can have another excuse to procrastinate getting work done.
-<div class="item-social">
-[g-link url="http://www.twitter.com/seahorsepops" icon="twitter" icon_type="fontawesome" stacked=true][/g-link]
-[g-link url="mailto:sean.friend@pavesnonprofit.com" icon="envelope" icon_type="fontawesome" stacked=true][/g-link]
-</div>
-[/g-team-item]
 [/g-team]
 
 [g-contacts name=contacts attributes="class:module contacts" info_attributes="class:col-md-4" form_attributes="class:col-md-8"]
